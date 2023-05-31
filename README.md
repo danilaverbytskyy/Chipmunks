@@ -1,1 +1,3 @@
 # Chipmunks
+Сайт про бурундуков, который я сделал в 14 лет.
+![image](https://github.com/danilaverbytskyy/Chipmunks/assets/97106552/ac1ca14a-ff2b-474b-972e-6e46f66970d1)
