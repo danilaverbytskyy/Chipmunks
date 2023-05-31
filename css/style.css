@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+header,nav,aside,article,footer{
+	display:block;
+	outline:1px solid;
+}
+body{
+	background-image:url(../img/фон.jpg);
+	opacity:0.9;
+	font-family:Comic Sans MS;
+}
+div.box{
+	width:960px;
+	margin:20px auto;
+	background:#fff;
+}
+header{
+	height:300px;
+	text-align:center;
+}
+h1{
+	font-size:4em;
+	color:red;
+	font-family:arial;
+	line-height:2;
+	
+}
+nav{
+	height:3.125em;
+}
+nav ul{
+list-style:none;
+}
+nav ul li{
+float:left;
+outline:1px solid;
+width:25%;
+height:3.125em;
+text-align:center;
+
+}
+nav ul li a{
+font-size:1.375em;
+text-decoration:none;
+color:blue;
+line-height:2.1;
+}
+aside{
+	width:210px;
+	overflow:hidden;
+	float:left;
+	padding:15px;
+}
+img.telec{
+	float:left;
+	padding:10px;
+}
+img.logo{
+	width:200px;
+}
+ul.meny2, ul.meny3{
+	list-style:none;
+}
+ul.meny3{
+	margin-left:18px;
+}
+ul.meny2 a{
+	text-decoration:none;
+	color:blue;
+	font-size:21px;
+	font-family:Comic Sans MS;
+	
+}
+article{
+	width:690px;
+	height:100%;
+	float:right;
+	padding:15px;
+}
+article h2{
+	color:black;
+	font-size:35px;
+	font-family:Comic Sans MS;
+	text-align:center;
+}
+img.buru{
+	float:left;
+	margin:10px;
+}
+footer{
+	height:50px;
+	clear:both;
+	text-align:center;
+}
+img.facts{
+	float:right;
+	margin:10px;
+}
+

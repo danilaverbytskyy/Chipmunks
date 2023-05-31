@@ -1,0 +1,14 @@
+input.input{
+	width:35%;
+	padding:5px;
+	margin-bottom:10px;
+}
+textarea{
+	width:40%;
+}
+#submit{
+	padding:5px;
+	background:blue;
+}#submit:hover{
+	background:red;
+}

@@ -1,0 +1,16 @@
+div.wrepper{
+	overflow:hidden;
+	padding:10px;
+	color:#fff;
+}
+div.item{
+	float:left;
+	width:29.3%;
+	padding:2%;
+	text-align:center;
+}
+div.item a{
+	text-decoration:none;
+	font-family:Comic Sans MS;
+	color:black;
+}

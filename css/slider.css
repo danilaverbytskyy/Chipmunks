@@ -1,0 +1,64 @@
+header{
+    position: relative;
+	background:#000;
+}
+header h1{
+	position:absolute;
+	z-index:1;
+	color:white;
+	font-size:55px;
+	font-family:Comic Sans MS;
+	text-shadow: 2px 2px 6px #000;
+	top:30px;
+	left:50px;
+}
+header ul.site{
+	list-style:none;
+	z-index:-2;
+}
+header ul.site:after{
+	content:'';
+}
+@-webkit-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes anim_slides {
+0% {opacity:0;}
+6% {opacity:1;}
+24% {opacity:1;}
+30% {opacity:0;}
+100% {opacity:0;}
+}
+.site li.fon{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    background-repeat:none;
+    opacity:0;
+    -webkit-animation: anim_slides 18s linear infinite 0s;
+    -moz-animation: anim_slides 18s linear infinite 0s;
+    -o-animation: anim_slides 18s linear infinite 0s;
+    -ms-animation: anim_slides 18s linear infinite 0s;
+    animation: anim_slides 18s linear infinite 0s;
+}
+
+.site li.fon:nth-child(1){
+background-image: url(../img/slider1.jpg) 
+}
+.site li.fon:nth-child(2){
+-webkit-animation-delay: 3.0s;
+-moz-animation-delay: 3.0s;
+background-image: url(../img/slider2.jpg) 
+}
+.site li.fon:nth-child(3){
+-webkit-animation-delay: 6.0s;
+-moz-animation-delay: 6.0s;
+background-image: url(../img/slider3.jpg) 
+}
